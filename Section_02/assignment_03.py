@@ -13,8 +13,16 @@ original_list = ['cup', 'cereal', 'milk', (8, 4, 3)]
 
 # your code below:
 
+new_list = list(original_list[3])
 
+new_list.sort()
 
+print(new_list)
+
+original_list.pop()
+original_list.append(new_list)
+
+print(original_list)
 
 
 
